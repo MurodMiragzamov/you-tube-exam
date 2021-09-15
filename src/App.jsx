@@ -2,8 +2,7 @@ import React from "react";
 import "./App.scss";
 
 function App() {
-  return;
-  <></>;
+  return <>app</>;
 }
 
 export default App;
