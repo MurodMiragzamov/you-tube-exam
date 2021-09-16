@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 30px;
+  display: flex;
+}
+
+.nav-div {
+  padding-top: 114px;
+  position: relative;
+  max-width: 225px;
+  width: 30%;
+  display: flex;
+  align-items: flex-end;
+}
+.nav-logo-span {
+  position: absolute;
+  top: 0;
+  img {
+    position: absolute;
+  }
+}
+.menulogo {
+  width: 20px;
+  height: 17px;
+  left: 0;
+  top: 30px;
+}
+.youtubelogo {
+  width: 116px;
+  height: 25px;
+  top: 26px;
+  left: 50px;
+}
+
+.home-item {
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.homelogo {
+  width: 20px;
+  height: 19px;
+  position: absolute;
+}
+.ogonlogo {
+  width: 16px;
+  height: 20.5px;
+  position: absolute;
+}
+.sublogo {
+  width: 17.81px;
+  height: 18px;
+  position: absolute;
+}
+
+.home_p {
+  color: #898989;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 30px;
+}
+.red {
+  color: #ff0000;
+}
+
+.nav_home-list {
+  margin-bottom: 38px;
+}
