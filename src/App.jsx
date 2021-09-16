@@ -3,6 +3,15 @@ import { Switch, Route, NavLink } from "react-router-dom";
 import "./App.scss";
 import Home from "./Pages/Home/Home";
 import Trending from "./Pages/Trending/Trending";
+import Sub from "./Pages/Sub/Sub";
+import Lib from "./Pages/Lib/Lib";
+import His from "./Pages/His/His";
+import Watch from "./Pages/Watch/Watch";
+import Fav from "./Pages/Fav/Fav";
+import Like from "./Pages/Like/Like";
+import Music from "./Pages/Music/Music";
+import Games from "./Pages/Games/Games";
+import Setting from "./Pages/Setting/Setting";
 //images
 import youtube from "./Assets/Images/youtube.png";
 import menu from "./Assets/Images/menu.png";
@@ -19,6 +28,15 @@ import like from "./Assets/Images/like.png";
 import music from "./Assets/Images/music.png";
 import game from "./Assets/Images/game.png";
 import arrow from "./Assets/Images/arrow.png";
+
+import user1 from "./Assets/Images/user1.png";
+import user2 from "./Assets/Images/user2.png";
+import user3 from "./Assets/Images/user3.png";
+import user4 from "./Assets/Images/user4.png";
+import user5 from "./Assets/Images/user5.png";
+import user6 from "./Assets/Images/user6.png";
+
+import settings from "./Assets/Images/settings.png";
 
 function App() {
   return (
@@ -51,7 +69,7 @@ function App() {
                   alt="logo"
                   className="homelogo"
                 />
-                <p className="home_p red">Home</p>
+                <p className="nav_p red">Home</p>
               </NavLink>
             </li>
             <li className="home-item">
@@ -63,7 +81,7 @@ function App() {
                   alt="logo"
                   className="ogonlogo"
                 />
-                <p className="home_p">Trending</p>
+                <p className="nav_p">Trending</p>
               </NavLink>
             </li>
             <li className="home-item">
@@ -75,121 +93,223 @@ function App() {
                   alt="logo"
                   className="sublogo"
                 />
-                <p className="home_p">Subscriptions</p>
+                <p className="nav_p">Subscriptions</p>
               </NavLink>
             </li>
           </ul>
 
           <ul className="nav_lib-list">
             <li className="lib-item">
-              <NavLink to="/trending">
+              <NavLink to="/librery">
                 <img
                   width={100}
                   height={100}
-                  src={ogon}
+                  src={file}
                   alt="logo"
-                  className="ogonlogo"
+                  className="filelogo"
                 />
-                <p className="home_p">Library</p>
+                <p className="nav_p">Library</p>
               </NavLink>
             </li>
 
             <li className="lib-item">
-              <NavLink to="/trending">
+              <NavLink to="/history">
                 <img
                   width={100}
                   height={100}
-                  src={ogon}
+                  src={history}
                   alt="logo"
-                  className="ogonlogo"
+                  className="historylogo"
                 />
-                <p className="home_p">History</p>
+                <p className="nav_p">History</p>
               </NavLink>
             </li>
 
             <li className="lib-item">
-              <NavLink to="/trending">
+              <NavLink to="/watchlater">
                 <img
                   width={100}
                   height={100}
-                  src={ogon}
+                  src={watch}
                   alt="logo"
-                  className="ogonlogo"
+                  className="watchlogo"
                 />
-                <p className="home_p">Watch later</p>
+                <p className="nav_p">Watch later</p>
               </NavLink>
             </li>
 
             <li className="lib-item">
-              <NavLink to="/trending">
+              <NavLink to="/favourite">
                 <img
                   width={100}
                   height={100}
-                  src={ogon}
+                  src={star}
                   alt="logo"
-                  className="ogonlogo"
+                  className="starlogo"
                 />
-                <p className="home_p">Favourite</p>
+                <p className="nav_p">Favourite</p>
               </NavLink>
             </li>
 
             <li className="lib-item">
-              <NavLink to="/trending">
+              <NavLink to="/likevideos">
                 <img
                   width={100}
                   height={100}
-                  src={ogon}
+                  src={like}
                   alt="logo"
-                  className="ogonlogo"
+                  className="likelogo"
                 />
-                <p className="home_p">Liked videos</p>
+                <p className="nav_p">Liked videos</p>
               </NavLink>
             </li>
 
             <li className="lib-item">
-              <NavLink to="/trending">
+              <NavLink to="/music">
                 <img
                   width={100}
                   height={100}
-                  src={ogon}
+                  src={music}
                   alt="logo"
-                  className="ogonlogo"
+                  className="musiclogo"
                 />
-                <p className="home_p">Music</p>
+                <p className="nav_p">Music</p>
               </NavLink>
             </li>
 
             <li className="lib-item">
-              <NavLink to="/trending">
+              <NavLink to="/games">
                 <img
                   width={100}
                   height={100}
-                  src={ogon}
+                  src={game}
                   alt="logo"
-                  className="ogonlogo"
+                  className="gamelogo"
                 />
-                <p className="home_p">Games</p>
+                <p className="nav_p">Games</p>
               </NavLink>
             </li>
 
-            <li className="lib-item">
-              <NavLink to="/trending">
+            <li className="lib-item show">
+              <img
+                width={100}
+                height={100}
+                src={arrow}
+                alt="logo"
+                className="arrowlogo"
+              />
+              <p className="nav_p">Show more</p>
+            </li>
+          </ul>
+
+          <h3 className="nav-header">Subscriptions</h3>
+
+          <ul className="nav_sub-list">
+            <li className="sub-item">
+              <NavLink to="/games">
                 <img
                   width={100}
                   height={100}
-                  src={ogon}
+                  src={user1}
                   alt="logo"
-                  className="ogonlogo"
+                  className="userlogo"
                 />
-                <p className="home_p">Trending</p>
+                <p className="nav_p">Gussie Singleton</p>
+              </NavLink>
+            </li>
+
+            <li className="sub-item">
+              <NavLink to="/games">
+                <img
+                  width={100}
+                  height={100}
+                  src={user2}
+                  alt="logo"
+                  className="userlogo"
+                />
+                <p className="nav_p">Nora Francis</p>
+              </NavLink>
+            </li>
+
+            <li className="sub-item">
+              <NavLink to="/games">
+                <img
+                  width={100}
+                  height={100}
+                  src={user3}
+                  alt="logo"
+                  className="userlogo"
+                />
+                <p className="nav_p">Belle Briggs</p>
+              </NavLink>
+            </li>
+
+            <li className="sub-item">
+              <NavLink to="/games">
+                <img
+                  width={100}
+                  height={100}
+                  src={user4}
+                  alt="logo"
+                  className="userlogo"
+                />
+                <p className="nav_p">Eunice Cortez</p>
+              </NavLink>
+            </li>
+
+            <li className="sub-item">
+              <NavLink to="/games">
+                <img
+                  width={100}
+                  height={100}
+                  src={user5}
+                  alt="logo"
+                  className="userlogo"
+                />
+                <p className="nav_p">Emma Hanson</p>
+              </NavLink>
+            </li>
+
+            <li className="sub-item">
+              <NavLink to="/games">
+                <img
+                  width={100}
+                  height={100}
+                  src={user6}
+                  alt="logo"
+                  className="userlogo"
+                />
+                <p className="nav_p">Leah Berry</p>
               </NavLink>
             </li>
           </ul>
+
+          <span className="settings-span">
+            <NavLink to="/setting">
+              <img
+                width={100}
+                height={100}
+                src={settings}
+                alt="logo"
+                className="settinglogo"
+              />
+              <p className="nav_p">Setting</p>
+            </NavLink>
+          </span>
         </div>
 
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path="/trending" component={Trending} />
+          <Route path="/trending" component={Trending} exact />
+          <Route path="/subscriptions" component={Sub} exact />
+          <Route path="/librery" component={Lib} exact />
+          <Route path="/history" component={His} exact />
+          <Route path="/watchlater" component={Watch} exact />
+          <Route path="/favourite" component={Fav} exact />
+          <Route path="/likevideos" component={Like} exact />
+          <Route path="/music" component={Music} exact />
+          <Route path="/games" component={Games} exact />
+          <Route path="/setting" component={Setting} exact />
         </Switch>
       </div>
     </>

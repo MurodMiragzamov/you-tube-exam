@@ -20,11 +20,15 @@
   position: relative;
   max-width: 225px;
   width: 30%;
-  display: flex;
-  align-items: flex-end;
+  padding-bottom: 40px;
 }
 .nav-logo-span {
-  position: absolute;
+  background: #fff;
+  max-width: 224px;
+  width: 28%;
+  height: 49px;
+  z-index: 5;
+  position: fixed;
   top: 0;
   img {
     position: absolute;
@@ -35,11 +39,12 @@
   height: 17px;
   left: 0;
   top: 30px;
+  cursor: pointer;
 }
 .youtubelogo {
   width: 116px;
   height: 25px;
-  top: 26px;
+  top: 24px;
   left: 50px;
 }
 
@@ -64,7 +69,7 @@
   position: absolute;
 }
 
-.home_p {
+.nav_p {
   color: #898989;
   font-size: 16px;
   line-height: 20px;
@@ -75,5 +80,105 @@
 }
 
 .nav_home-list {
-  margin-bottom: 38px;
+  margin-bottom: 60px;
+}
+
+.lib-item {
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.filelogo {
+  position: absolute;
+  width: 20px;
+  height: 16px;
+  top: 2px;
+}
+.historylogo {
+  position: absolute;
+  width: 20px;
+  height: 18px;
+  top: 2px;
+}
+.watchlogo {
+  position: absolute;
+  width: 16.76px;
+  height: 18.86px;
+  top: 2px;
+}
+.starlogo {
+  position: absolute;
+  width: 18.7px;
+  height: 17.83px;
+  top: 2px;
+}
+.likelogo {
+  position: absolute;
+  width: 18px;
+  height: 16.86px;
+  top: 2px;
+}
+.musiclogo {
+  position: absolute;
+  width: 18px;
+  height: 20px;
+  top: 3px;
+}
+.gamelogo {
+  position: absolute;
+  width: 22px;
+  height: 16px;
+  top: 3px;
+}
+.arrowlogo {
+  position: absolute;
+  width: 13.34px;
+  height: 7.67px;
+  top: 8px;
+  left: 5px;
+}
+.nav_lib-list {
+  margin-bottom: 55px;
+}
+
+.show {
+  cursor: pointer;
+}
+
+//sub
+
+.nav-header {
+  margin-bottom: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 23px;
+}
+
+.sub-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 5px;
+}
+
+.userlogo {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 0;
+  top: -2px;
+}
+.nav_sub-list {
+  margin-bottom: 110px;
+}
+
+.settings-span {
+  position: relative;
+
+  img {
+    position: absolute;
+    width: 18.7px;
+    height: 20px;
+    left: 3px;
+    top: 1px;
+  }
 }
