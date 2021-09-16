@@ -11,6 +11,15 @@ import home from "./Assets/Images/redhome.png";
 import ogon from "./Assets/Images/ogon.png";
 import sub from "./Assets/Images/sub.png";
 
+import file from "./Assets/Images/file.png";
+import history from "./Assets/Images/history.png";
+import watch from "./Assets/Images/watch.png";
+import star from "./Assets/Images/star.png";
+import like from "./Assets/Images/like.png";
+import music from "./Assets/Images/music.png";
+import game from "./Assets/Images/game.png";
+import arrow from "./Assets/Images/arrow.png";
+
 function App() {
   return (
     <>
@@ -70,15 +79,111 @@ function App() {
               </NavLink>
             </li>
           </ul>
+
           <ul className="nav_lib-list">
-            <li className="lib-item"></li>
-            <li className="lib-item"></li>
-            <li className="lib-item"></li>
-            <li className="lib-item"></li>
-            <li className="lib-item"></li>
-            <li className="lib-item"></li>
-            <li className="lib-item"></li>
-            <li className="lib-item"></li>
+            <li className="lib-item">
+              <NavLink to="/trending">
+                <img
+                  width={100}
+                  height={100}
+                  src={ogon}
+                  alt="logo"
+                  className="ogonlogo"
+                />
+                <p className="home_p">Library</p>
+              </NavLink>
+            </li>
+
+            <li className="lib-item">
+              <NavLink to="/trending">
+                <img
+                  width={100}
+                  height={100}
+                  src={ogon}
+                  alt="logo"
+                  className="ogonlogo"
+                />
+                <p className="home_p">History</p>
+              </NavLink>
+            </li>
+
+            <li className="lib-item">
+              <NavLink to="/trending">
+                <img
+                  width={100}
+                  height={100}
+                  src={ogon}
+                  alt="logo"
+                  className="ogonlogo"
+                />
+                <p className="home_p">Watch later</p>
+              </NavLink>
+            </li>
+
+            <li className="lib-item">
+              <NavLink to="/trending">
+                <img
+                  width={100}
+                  height={100}
+                  src={ogon}
+                  alt="logo"
+                  className="ogonlogo"
+                />
+                <p className="home_p">Favourite</p>
+              </NavLink>
+            </li>
+
+            <li className="lib-item">
+              <NavLink to="/trending">
+                <img
+                  width={100}
+                  height={100}
+                  src={ogon}
+                  alt="logo"
+                  className="ogonlogo"
+                />
+                <p className="home_p">Liked videos</p>
+              </NavLink>
+            </li>
+
+            <li className="lib-item">
+              <NavLink to="/trending">
+                <img
+                  width={100}
+                  height={100}
+                  src={ogon}
+                  alt="logo"
+                  className="ogonlogo"
+                />
+                <p className="home_p">Music</p>
+              </NavLink>
+            </li>
+
+            <li className="lib-item">
+              <NavLink to="/trending">
+                <img
+                  width={100}
+                  height={100}
+                  src={ogon}
+                  alt="logo"
+                  className="ogonlogo"
+                />
+                <p className="home_p">Games</p>
+              </NavLink>
+            </li>
+
+            <li className="lib-item">
+              <NavLink to="/trending">
+                <img
+                  width={100}
+                  height={100}
+                  src={ogon}
+                  alt="logo"
+                  className="ogonlogo"
+                />
+                <p className="home_p">Trending</p>
+              </NavLink>
+            </li>
           </ul>
         </div>
 
