@@ -38,6 +38,8 @@ import user6 from "./Assets/Images/user6.png";
 
 import settings from "./Assets/Images/settings.png";
 
+import Search from "./Components/Search/Search";
+
 function App() {
   return (
     <>
@@ -298,6 +300,7 @@ function App() {
           </span>
         </div>
 
+        <Search></Search>
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/trending" component={Trending} exact />
