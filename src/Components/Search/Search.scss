@@ -1,0 +1,430 @@
+.input::placeholder {
+  color: #30384c;
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 10px;
+  mix-blend-mode: normal;
+}
+.input {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  width: 830px;
+
+  background: #ebebeb;
+  border-radius: 22px;
+  border: 1px solid #ebebeb;
+
+  outline: none;
+  padding-left: 20px;
+  padding-right: 45px;
+  color: black;
+  font-size: 16px;
+  line-height: 20px;
+}
+.imput-div {
+  padding-left: 250px;
+  position: relative;
+  margin-right: 500px;
+  img {
+    position: absolute;
+    width: 18.21px;
+    height: 18.21px;
+    right: 20px;
+    top: 12px;
+  }
+}
+
+.search-item {
+  position: relative;
+
+  span {
+    position: absolute;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    z-index: 4;
+    top: -2px;
+    left: 12px;
+    color: white;
+    cursor: pointer;
+  }
+}
+.tochkiicon {
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+}
+.videoicon {
+  width: 27px;
+  height: 20px;
+  cursor: pointer;
+}
+.colocolicon {
+  width: 22px;
+  height: 26px;
+  cursor: pointer;
+}
+.redicon {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: -3px;
+  left: 6px;
+  cursor: pointer;
+}
+.profileicon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -6px;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.search-div {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+
+  position: fixed;
+}
+
+.search-list {
+  display: flex;
+  padding-top: 12px;
+}
+.search-item {
+  padding-right: 60px;
+}
+
+@media (max-width: 1915px) {
+  .search-item {
+    padding-right: 60px;
+  }
+  .imput-div {
+    margin-right: 500px;
+  }
+}
+
+@media (max-width: 1905px) {
+  .imput-div {
+    margin-right: 490px;
+  }
+}
+@media (max-width: 1895px) {
+  .imput-div {
+    margin-right: 460px;
+  }
+}
+@media (max-width: 1880px) {
+  .imput-div {
+    margin-right: 30%;
+  }
+}
+@media (max-width: 1850px) {
+  .imput-div {
+    margin-right: 350px;
+  }
+}
+@media (max-width: 1810px) {
+  .imput-div {
+    margin-right: 310px;
+  }
+}
+@media (max-width: 1755px) {
+  .imput-div {
+    margin-right: 20%;
+  }
+}
+
+@media (max-width: 1705px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 800px;
+  }
+}
+
+@media (max-width: 1560px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 780px;
+  }
+}
+
+@media (max-width: 1540px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 750px;
+  }
+}
+@media (max-width: 1510px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 720px;
+  }
+}
+@media (max-width: 1470px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 680px;
+  }
+}
+@media (max-width: 1420px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 650px;
+  }
+}
+@media (max-width: 1390px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 620px;
+  }
+}
+@media (max-width: 1360px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 590px;
+  }
+}
+@media (max-width: 1305px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 550px;
+  }
+}
+@media (max-width: 1280px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 510px;
+  }
+}
+@media (max-width: 1225px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 470px;
+  }
+}
+@media (max-width: 1180px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 440px;
+  }
+  .search-item {
+    padding-right: 50px;
+  }
+}
+@media (max-width: 1115px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 420px;
+  }
+  .search-item {
+    padding-right: 50px;
+  }
+}
+@media (max-width: 1080px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 410px;
+  }
+  .search-item {
+    padding-right: 45px;
+  }
+}
+@media (max-width: 1150px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 400px;
+  }
+  .search-item {
+    padding-right: 40px;
+  }
+}
+@media (max-width: 1015px) {
+  .imput-div {
+    margin-right: 10%;
+  }
+  .input {
+    width: 350px;
+  }
+  .search-item {
+    padding-right: 35px;
+  }
+}
+@media (max-width: 955px) {
+  .imput-div {
+    margin-right: 8%;
+  }
+  .input {
+    width: 300px;
+  }
+}
+@media (max-width: 875px) {
+  .imput-div {
+    width: 530px;
+
+    .inputicon {
+      right: -22px;
+      cursor: pointer;
+    }
+  }
+  .input {
+    display: none;
+  }
+  .search-item {
+    padding-right: 45px;
+  }
+}
+@media (max-width: 840px) {
+  .imput-div {
+    width: 510px;
+
+    .inputicon {
+      right: -20px;
+      cursor: pointer;
+    }
+  }
+  .input {
+    display: none;
+  }
+  .search-item {
+    padding-right: 45px;
+  }
+}
+@media (max-width: 800px) {
+  .imput-div {
+    width: 480px;
+
+    .inputicon {
+      right: -20px;
+      cursor: pointer;
+    }
+  }
+  .input {
+    display: none;
+  }
+  .search-item {
+    padding-right: 45px;
+  }
+}
+@media (max-width: 770px) {
+  .imput-div {
+    width: 430px;
+
+    .inputicon {
+      right: -19px;
+      cursor: pointer;
+    }
+  }
+
+  .search-item {
+    padding-right: 45px;
+  }
+}
+@media (max-width: 730px) {
+  .imput-div {
+    width: 390px;
+
+    .inputicon {
+      right: -10px;
+      cursor: pointer;
+    }
+  }
+
+  .search-item {
+    padding-right: 45px;
+  }
+}
+@media (max-width: 690px) {
+  .imput-div {
+    width: 350px;
+
+    .inputicon {
+      right: -10px;
+      cursor: pointer;
+    }
+  }
+
+  .search-item {
+    padding-right: 45px;
+  }
+}
+@media (max-width: 645px) {
+  .imput-div {
+    width: 300px;
+  }
+
+  .search-item {
+    padding-right: 45px;
+  }
+}
+@media (max-width: 595px) {
+  .imput-div {
+    width: 250px;
+  }
+
+  .search-item {
+    padding-right: 45px;
+  }
+}
+@media (max-width: 580px) {
+  .imput-div {
+    width: 40%;
+    .inputicon {
+      right: -140px;
+      top: 15px;
+      cursor: pointer;
+    }
+  }
+
+  .search-item {
+    padding-right: 45px;
+  }
+  .videoicon,
+  .tochkiicon,
+  .colocolicon,
+  .redicon {
+    display: none;
+  }
+  .profileicon {
+    right: 0px;
+  }
+}

@@ -21,11 +21,19 @@
   max-width: 225px;
   width: 30%;
   padding-bottom: 40px;
+  height: 100vh;
+  overflow: auto;
+}
+.nav-div::-webkit-scrollbar {
+  width: 1px;
+}
+.nav-div::-webkit-scrollbar-thumb {
+  background: #fff;
 }
 .nav-logo-span {
   background: #fff;
-  max-width: 224px;
-  width: 28%;
+  max-width: 225px;
+  width: 29%;
   height: 49px;
   z-index: 5;
   position: fixed;
@@ -164,7 +172,7 @@
   position: absolute;
   width: 26px;
   height: 26px;
-  left: 0;
+  left: 1px;
   top: -2px;
 }
 .nav_sub-list {
