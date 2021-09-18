@@ -6,7 +6,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   list-style: none;
 }
-
+.div {
+  max-width: 225px;
+  width: 30%;
+  height: 100vh;
+}
 .container {
   max-width: 1920px;
   width: 100%;
@@ -19,7 +23,7 @@
   padding-top: 114px;
   position: relative;
   max-width: 225px;
-  width: 30%;
+  width: 100%;
   padding-bottom: 40px;
   height: 100vh;
   overflow: auto;
@@ -29,31 +33,6 @@
 }
 .nav-div::-webkit-scrollbar-thumb {
   background: #fff;
-}
-.nav-logo-span {
-  background: #fff;
-  max-width: 225px;
-  width: 29%;
-  height: 49px;
-  z-index: 5;
-  position: fixed;
-  top: 0;
-  img {
-    position: absolute;
-  }
-}
-.menulogo {
-  width: 20px;
-  height: 17px;
-  left: 0;
-  top: 30px;
-  cursor: pointer;
-}
-.youtubelogo {
-  width: 116px;
-  height: 25px;
-  top: 26px;
-  left: 50px;
 }
 
 .home-item {
@@ -190,5 +169,84 @@
     top: 1px;
   }
 }
-@media (max-width: 875px) {
+@media (max-width: 800px) {
+  .nav-div,
+  .nav_home-list,
+  .home-item {
+    display: flex;
+
+    img {
+      position: sticky;
+    }
+  }
+  .nav_home-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    margin-bottom: 0;
+    li {
+      margin-right: 20px;
+      padding: 2px;
+      margin-bottom: 0;
+    }
+  }
+  .nav_p {
+    display: none;
+  }
+  .nav_sub-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    margin-bottom: 0;
+    li {
+      margin-right: 20px;
+      padding: 2px;
+      margin-bottom: 0;
+    }
+  }
+  .nav-header {
+    display: none;
+  }
+  .nav_lib-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    margin-bottom: 0;
+    li {
+      margin-right: 20px;
+      padding: 2px;
+      margin-bottom: 0;
+    }
+  }
+  .show {
+    display: none;
+  }
+  .nav-div {
+    width: 800px;
+    height: 25px;
+    position: fixed;
+    background: #fff;
+    align-items: stretch;
+    height: 50px;
+    padding: 0;
+    max-width: 100%;
+  }
+  .div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 100%;
+  }
+  .settings-span {
+    margin-right: 20px;
+    padding: 2px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+  }
 }

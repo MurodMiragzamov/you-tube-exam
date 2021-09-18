@@ -1,3 +1,28 @@
+.nav-logo-span {
+  background: #fff;
+  max-width: 220px;
+  width: 27%;
+  height: 49px;
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  img {
+    position: absolute;
+  }
+}
+.menulogo {
+  width: 20px;
+  height: 17px;
+  left: 0;
+  top: 28px;
+  cursor: pointer;
+}
+.youtubelogo {
+  width: 116px;
+  height: 25px;
+  top: 24px;
+  left: 50px;
+}
 .input::placeholder {
   color: #30384c;
   opacity: 0.8;
@@ -337,6 +362,12 @@
       right: -20px;
       cursor: pointer;
     }
+  }
+  .menulogo {
+    display: none;
+  }
+  .youtubelogo {
+    left: 0;
   }
   .input {
     display: none;
