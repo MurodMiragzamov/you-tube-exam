@@ -1,0 +1,45 @@
+.home-section {
+  padding-top: 123px;
+}
+.home_item {
+  position: relative;
+}
+.userlogohome {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: -6px;
+}
+.home_header {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #19202c;
+  padding-left: 70px;
+}
+.larrow {
+  width: 28px;
+  height: 28px;
+}
+
+.rarrow {
+  width: 28px;
+  height: 28px;
+}
+.btn-l {
+  position: absolute;
+  right: 188px;
+  top: 127px;
+  background: inherit;
+  border: none;
+  cursor: pointer;
+}
+.btn-r {
+  position: absolute;
+  top: 127px;
+  right: 149px;
+  background: inherit;
+  border: none;
+  cursor: pointer;
+}
