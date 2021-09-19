@@ -57,3 +57,43 @@
 .home-section::-webkit-scrollbar-thumb {
   background: #fff;
 }
+.home_img {
+  width: 250px;
+  height: 150px;
+  border-radius: 14px;
+}
+.home_li_ul {
+  margin-top: 38px;
+  display: flex;
+  width: 100%;
+  overflow: auto;
+  li {
+    margin-right: 40px;
+  }
+}
+.home_li_ul::-webkit-scrollbar {
+  width: 1px;
+}
+.home_li_ul::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+.rec-header {
+  padding-left: 0;
+}
+
+.home_img-two {
+  width: 540px;
+  height: 250px;
+  border-radius: 14px;
+}
+.home_divv {
+  display: flex;
+  p {
+    padding-top: 9px;
+    padding-left: 19px;
+    color: #c2c2c2;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
