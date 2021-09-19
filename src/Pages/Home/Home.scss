@@ -119,3 +119,16 @@
   padding-right: 12px;
   margin-bottom: 30px;
 }
+@media (max-width: 900px) {
+  .btn-r {
+    right: 69px;
+  }
+  .btn-l {
+    right: 108px;
+  }
+}
+@media (max-width: 800px) {
+  .home_li_pp {
+    margin-bottom: 55px;
+  }
+}
