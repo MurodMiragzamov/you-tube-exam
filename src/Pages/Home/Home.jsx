@@ -17,26 +17,6 @@ function Home() {
   return (
     <>
       <section className="home-section">
-        <button className="btn-l">
-          <img
-            width={100}
-            height={100}
-            src={arrowleft}
-            alt="icon"
-            className="larrow"
-          />
-        </button>
-
-        <button className="btn-r">
-          <img
-            width={100}
-            height={100}
-            src={arrowright}
-            alt="icon"
-            className="rarrow"
-          />
-        </button>
-
         <div className="home-div">
           <ul className="home_list">
             <li className="home_item">
@@ -50,6 +30,26 @@ function Home() {
                 />
                 <h3 className="home_header">Dollie Blair</h3>
               </NavLink>
+
+              <button className="btn-l">
+                <img
+                  width={100}
+                  height={100}
+                  src={arrowleft}
+                  alt="icon"
+                  className="larrow"
+                />
+              </button>
+
+              <button className="btn-r">
+                <img
+                  width={100}
+                  height={100}
+                  src={arrowright}
+                  alt="icon"
+                  className="rarrow"
+                />
+              </button>
               <ul>
                 {data &&
                   data.map((row) => (
