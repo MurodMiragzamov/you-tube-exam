@@ -67,7 +67,6 @@ function Home() {
                   data.map((row) => (
                     <li key={row.id}>
                       <img className="home_img" src={row.url} alt="icon" />
-                      <h4></h4>
                     </li>
                   ))}
               </ul>
@@ -80,7 +79,6 @@ function Home() {
                   datatwo.map((row) => (
                     <li key={row.id}>
                       <img className="home_img-two" src={row.url} alt="icon" />
-                      <h4></h4>
                     </li>
                   ))}
               </ul>
@@ -105,7 +103,6 @@ function Home() {
                   datathree.map((row) => (
                     <li key={row.id}>
                       <img className="home_img" src={row.url} alt="icon" />
-                      <h4></h4>
                     </li>
                   ))}
               </ul>
