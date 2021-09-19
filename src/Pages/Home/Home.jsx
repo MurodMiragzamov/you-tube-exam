@@ -67,18 +67,41 @@ function Home() {
                   data.map((row) => (
                     <li key={row.id}>
                       <img className="home_img" src={row.url} alt="icon" />
+                      <h4 className="home_li_header">{row.title}</h4>
+                      <p className="home_li_p">80k views · 3 days ago</p>
+                      <p className="home_li_p">Dollie Blair</p>
                     </li>
                   ))}
               </ul>
             </li>
             <li className="home_item">
               <h3 className="home_header rec-header">Recommended</h3>
+              <button className="btn-l">
+                <img
+                  width={100}
+                  height={100}
+                  src={arrowleft}
+                  alt="icon"
+                  className="larrow"
+                />
+              </button>
 
+              <button className="btn-r">
+                <img
+                  width={100}
+                  height={100}
+                  src={arrowright}
+                  alt="icon"
+                  className="rarrow"
+                />
+              </button>
               <ul className="home_li_ul">
                 {datatwo &&
                   datatwo.map((row) => (
                     <li key={row.id}>
                       <img className="home_img-two" src={row.url} alt="icon" />
+                      <h4 className="home_li_header">{row.title}</h4>
+                      <p className="home_li_p">34k views · 5 months ago</p>
                     </li>
                   ))}
               </ul>
@@ -96,6 +119,25 @@ function Home() {
                   <h3 className="home_header">Food & Drink</h3>
                 </NavLink>
                 <p className="home_p">Recommended channel for you</p>
+                <button className="btn-l">
+                  <img
+                    width={100}
+                    height={100}
+                    src={arrowleft}
+                    alt="icon"
+                    className="larrow"
+                  />
+                </button>
+
+                <button className="btn-r">
+                  <img
+                    width={100}
+                    height={100}
+                    src={arrowright}
+                    alt="icon"
+                    className="rarrow"
+                  />
+                </button>
               </div>
 
               <ul className="home_li_ul">
@@ -103,6 +145,9 @@ function Home() {
                   datathree.map((row) => (
                     <li key={row.id}>
                       <img className="home_img" src={row.url} alt="icon" />
+                      <h4 className="home_li_header">{row.title}</h4>
+                      <p className="home_li_pp">45k views · 2 months ago</p>
+                      <p className="home_li_pp">Food & Drink</p>
                     </li>
                   ))}
               </ul>
