@@ -183,28 +183,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 33px;
+    height: 37px;
     margin-bottom: 0;
     li {
+      text-align: center;
       margin-right: 20px;
       padding: 2px;
       margin-bottom: 0;
+      width: 65px;
+      justify-content: center;
+      align-items: center;
     }
   }
   .nav_p {
-    display: none;
+    display: block;
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: normal;
+    padding: 0;
+    padding-top: 1px;
   }
   .nav_sub-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 33px;
-    margin-bottom: 0;
-    li {
-      margin-right: 20px;
-      padding: 2px;
-      margin-bottom: 0;
-    }
+    display: none;
   }
   .nav-header {
     display: none;
@@ -213,26 +213,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 33px;
+    height: 37px;
     margin-bottom: 0;
     li {
+      text-align: center;
       margin-right: 20px;
       padding: 2px;
       margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 65px;
+    }
+    .show {
+      display: none;
     }
   }
-  .show {
-    display: none;
-  }
+
   .nav-div {
     width: 800px;
-    height: 25px;
     position: fixed;
     background: #fff;
     align-items: stretch;
-    height: 50px;
+    height: 65px;
     padding: 0;
     max-width: 100%;
+    text-align: center;
+    align-items: center;
   }
   .div {
     display: flex;
@@ -248,5 +256,8 @@
     justify-content: center;
     align-items: center;
     padding-right: 40px;
+    height: 37px;
+    text-align: center;
+    width: 65px;
   }
 }
