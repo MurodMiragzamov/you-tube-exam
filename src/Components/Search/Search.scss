@@ -102,7 +102,7 @@
   width: 40px;
   height: 40px;
   position: absolute;
-  top: -6px;
+  top: -21px;
   z-index: 5;
   cursor: pointer;
 }
@@ -118,6 +118,7 @@
 .search-list {
   display: flex;
   padding-top: 12px;
+  align-items: center;
 }
 .search-item {
   padding-right: 60px;
@@ -329,6 +330,7 @@
     .inputicon {
       right: -22px;
       cursor: pointer;
+      top: 15px;
     }
   }
   .input {
@@ -456,6 +458,72 @@
     display: none;
   }
   .profileicon {
-    right: 0px;
+    right: -10px;
+    top: -10px;
+  }
+}
+@media (max-width: 520px) {
+  .imput-div {
+    width: 100px;
+    .inputicon {
+      right: -100px;
+      top: 15px;
+      cursor: pointer;
+    }
+  }
+  .profileicon {
+    right: 20px;
+  }
+}
+@media (max-width: 495px) {
+  .imput-div {
+    width: 80px;
+    .inputicon {
+      right: -80px;
+      top: 15px;
+      cursor: pointer;
+    }
+  }
+  .profileicon {
+    right: 50px;
+  }
+}
+@media (max-width: 465px) {
+  .imput-div {
+    width: 50px;
+    .inputicon {
+      right: -50px;
+      top: 15px;
+      cursor: pointer;
+    }
+  }
+  .profileicon {
+    right: 80px;
+  }
+}
+@media (max-width: 430px) {
+  .imput-div {
+    width: 20px;
+    .inputicon {
+      right: -20px;
+      top: 15px;
+      cursor: pointer;
+    }
+  }
+  .profileicon {
+    right: 110px;
+  }
+}
+@media (max-width: 405px) {
+  .imput-div {
+    width: 0px;
+    .inputicon {
+      right: 0px;
+      top: 15px;
+      cursor: pointer;
+    }
+  }
+  .profileicon {
+    right: 140px;
   }
 }
