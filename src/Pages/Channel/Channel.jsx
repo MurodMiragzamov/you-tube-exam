@@ -16,6 +16,7 @@ import green from "../../Assets/Images/green.png";
 import greens from "../../Assets/Images/greens.png";
 import blue from "../../Assets/Images/blue.png";
 import chansearch from "../../Assets/Images/search.png";
+import tripltochka from "../../Assets/Images/tripltochka.png";
 
 function Channel() {
   const [datachan, setDatachan] = React.useState([]);
@@ -28,6 +29,13 @@ function Channel() {
   return (
     <>
       <section className="home-section chan-section">
+        <img
+          width={100}
+          height={100}
+          src={tripltochka}
+          alt="green"
+          className="tochka"
+        />
         <div className="home-div chan-div">
           <ul className="home_list  chan_list">
             <li className="chan_item">
@@ -96,21 +104,28 @@ function Channel() {
                     </NavLink>
                   </li>
                   <li className="chan_nav-item">
-                    <NavLink to="/subscriptions">
+                    <NavLink className="none" to="/subscriptions">
                       <p className="chan_nav-p">Channels</p>
                     </NavLink>
+                    <img
+                      width={100}
+                      height={100}
+                      src={blackarrow}
+                      alt="green"
+                      className="blackarrpw"
+                    />
                   </li>
-                  <li className="chan_nav-item">
+                  <li className="chan_nav-item none">
                     <NavLink to="/">
                       <p className="chan_nav-p">Discussion</p>
                     </NavLink>
                   </li>
-                  <li className="chan_nav-item">
+                  <li className="chan_nav-item none">
                     <NavLink to="/">
                       <p className="chan_nav-p">About</p>
                     </NavLink>
                   </li>
-                  <li className="chan_nav-item sear">
+                  <li className="chan_nav-item sear none">
                     <img
                       width={100}
                       height={100}
