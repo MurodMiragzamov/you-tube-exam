@@ -12,6 +12,7 @@ import Like from "./Pages/DeadPages/Like/Like";
 import Music from "./Pages/DeadPages/Music/Music";
 import Games from "./Pages/DeadPages/Games/Games";
 import Setting from "./Pages/DeadPages/Setting/Setting";
+import Channel from "./Pages/Channel/Channel";
 //images
 
 import home from "./Assets/Images/redhome.png";
@@ -191,7 +192,7 @@ function App() {
 
             <ul className="nav_sub-list">
               <li className="sub-item">
-                <NavLink to="/games">
+                <NavLink to="/channel">
                   <img
                     width={100}
                     height={100}
@@ -204,7 +205,7 @@ function App() {
               </li>
 
               <li className="sub-item">
-                <NavLink to="/games">
+                <NavLink to="/channel">
                   <img
                     width={100}
                     height={100}
@@ -217,7 +218,7 @@ function App() {
               </li>
 
               <li className="sub-item">
-                <NavLink to="/games">
+                <NavLink to="/channel">
                   <img
                     width={100}
                     height={100}
@@ -230,7 +231,7 @@ function App() {
               </li>
 
               <li className="sub-item">
-                <NavLink to="/games">
+                <NavLink to="/channel">
                   <img
                     width={100}
                     height={100}
@@ -243,7 +244,7 @@ function App() {
               </li>
 
               <li className="sub-item">
-                <NavLink to="/games">
+                <NavLink to="/channel">
                   <img
                     width={100}
                     height={100}
@@ -256,7 +257,7 @@ function App() {
               </li>
 
               <li className="sub-item">
-                <NavLink to="/games">
+                <NavLink to="/channel">
                   <img
                     width={100}
                     height={100}
@@ -289,6 +290,7 @@ function App() {
           <Route path="/" component={Home} exact />
           <Route path="/trending" component={Trending} exact />
           <Route path="/subscriptions" component={Sub} exact />
+          <Route path="/channel" component={Channel} exact />
           <Route path="/librery" component={Lib} exact />
           <Route path="/history" component={His} exact />
           <Route path="/watchlater" component={Watch} exact />

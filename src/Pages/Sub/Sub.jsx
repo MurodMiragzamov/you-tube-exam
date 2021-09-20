@@ -14,7 +14,7 @@ function Sub() {
     <>
       <ul className="sub-list">
         <li className="sub_item">
-          <NavLink to="/games">
+          <NavLink to="/channel">
             <img
               width={100}
               height={100}
@@ -27,7 +27,7 @@ function Sub() {
         </li>
 
         <li className="sub_item">
-          <NavLink to="/games">
+          <NavLink to="/channel">
             <img
               width={100}
               height={100}
@@ -40,7 +40,7 @@ function Sub() {
         </li>
 
         <li className="sub_item">
-          <NavLink to="/games">
+          <NavLink to="/channel">
             <img
               width={100}
               height={100}
@@ -53,7 +53,7 @@ function Sub() {
         </li>
 
         <li className="sub_item">
-          <NavLink to="/games">
+          <NavLink to="/channel">
             <img
               width={100}
               height={100}
@@ -66,7 +66,7 @@ function Sub() {
         </li>
 
         <li className="sub_item">
-          <NavLink to="/games">
+          <NavLink to="/channel">
             <img
               width={100}
               height={100}
@@ -79,7 +79,7 @@ function Sub() {
         </li>
 
         <li className="sub_item">
-          <NavLink to="/games">
+          <NavLink to="/channel">
             <img
               width={100}
               height={100}
