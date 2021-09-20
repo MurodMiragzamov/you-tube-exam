@@ -66,7 +66,7 @@
 }
 .chan_nav-list {
   display: flex;
-  height: 70px;
+  height: 60px;
   width: 100%;
   overflow: auto;
 
@@ -101,4 +101,76 @@
   height: 18.21px;
   margin-top: 2px;
   cursor: pointer;
+}
+.chan_blue-div {
+  display: flex;
+  margin-bottom: 50px;
+}
+.blue-list {
+  padding-top: 10px;
+  display: flex;
+}
+.blue-item {
+  position: relative;
+  margin-right: 32px;
+}
+.chan_blue {
+  width: 540px;
+  height: 250px;
+  border-radius: 14px;
+}
+.chan_span {
+  position: absolute;
+  font-size: 14px;
+  line-height: 18px;
+  left: 491px;
+  top: 218px;
+  color: #fff;
+}
+.chan_wadov {
+  position: absolute;
+  width: 47px;
+  height: 24px;
+  left: 480px;
+  top: 215px;
+}
+.chan_blue-header {
+  width: 430px;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 34px;
+  color: #19202c;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.chan_blue-p {
+  width: 540px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  opacity: 0.6;
+  margin-bottom: 15px;
+}
+.users-item {
+  position: relative;
+  padding-left: 70px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  .blue_rec-p {
+    position: absolute;
+    font-size: 16px;
+    line-height: 20px;
+    color: #c2c2c2;
+    top: -55px;
+    left: 0;
+    width: 167px;
+  }
+}
+
+.chan_users {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: -15px;
 }
