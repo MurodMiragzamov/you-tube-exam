@@ -96,7 +96,7 @@ function Channel() {
                       <p className="chan_nav-p">About</p>
                     </NavLink>
                   </li>
-                  <li className="chan_nav-item">
+                  <li className="chan_nav-item sear">
                     <img
                       width={100}
                       height={100}

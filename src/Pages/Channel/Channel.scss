@@ -215,4 +215,54 @@
   }
 }
 @media (max-width: 1345px) {
+  .chan_users-list {
+    display: none;
+  }
+  .chan_blue-p {
+    width: 500px;
+  }
+}
+@media (max-width: 1253px) {
+  .chan_blue-p {
+    width: 400px;
+  }
+}
+@media (max-width: 1151px) {
+  .blue-list {
+    flex-direction: column;
+  }
+  .chan_blue {
+    width: 600px;
+  }
+  .chan_blue-p {
+    width: 600px;
+  }
+  .chan_blue-header {
+    margin-top: 5px;
+    width: 600px;
+  }
+}
+@media (max-width: 848px) {
+  .chan_blue {
+    width: 540px;
+  }
+  .chan_blue-p {
+    width: 500px;
+  }
+  .chan_blue-header {
+    margin-top: 5px;
+    width: 500px;
+  }
+}
+@media (max-width: 800px) {
+  .chan_user-img {
+    width: 60px;
+    height: 60px;
+    top: 4px;
+  }
+  .chan_user-header,
+  .chan_user-p {
+    padding-left: 80px;
+    margin-top: 5px;
+  }
 }
