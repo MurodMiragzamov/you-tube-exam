@@ -143,6 +143,9 @@
   margin-top: 20px;
   margin-bottom: 15px;
 }
+.chan_big-img-s {
+  display: none;
+}
 .chan_blue-p {
   width: 540px;
   font-size: 16px;
@@ -304,4 +307,10 @@
   }
 }
 @media (max-width: 600px) {
+  .chan_blue-div {
+    display: none;
+  }
+  .chan_header {
+    display: none;
+  }
 }

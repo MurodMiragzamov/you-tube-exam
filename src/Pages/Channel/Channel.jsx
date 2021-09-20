@@ -13,6 +13,7 @@ import blackarrow from "../../Assets/Images/arrowblack.png";
 import chanuser from "../../Assets/Images/chanuser.png";
 import colocolchan from "../../Assets/Images/colocol.png";
 import green from "../../Assets/Images/green.png";
+import greens from "../../Assets/Images/greens.png";
 import blue from "../../Assets/Images/blue.png";
 import chansearch from "../../Assets/Images/search.png";
 
@@ -31,10 +32,23 @@ function Channel() {
           <ul className="home_list  chan_list">
             <li className="chan_item">
               <div className="chan_li_div">
-                <img src={green} alt="green" className="chan_big-img" />
+                <img
+                  width={100}
+                  height={100}
+                  src={green}
+                  alt="green"
+                  className="chan_big-img"
+                />
 
                 <ul className="chan_user-list">
                   <li className="chan_user-item">
+                    <img
+                      width={100}
+                      height={100}
+                      src={greens}
+                      alt="green"
+                      className="chan_big-img-s"
+                    />
                     <img
                       width={100}
                       height={100}
