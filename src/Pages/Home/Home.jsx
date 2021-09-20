@@ -71,7 +71,7 @@ function Home() {
                         width={100}
                         height={100}
                         className="home_img"
-                        src={row.url}
+                        src={row.thumbnailUrl}
                         alt="icon"
                       />
                       <img
@@ -177,7 +177,7 @@ function Home() {
                         width={100}
                         height={100}
                         className="home_img"
-                        src={row.url}
+                        src={row.thumbnailUrl}
                         alt="icon"
                       />
                       <img
