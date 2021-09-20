@@ -67,7 +67,7 @@
 .chan_nav-list {
   display: flex;
   height: 60px;
-  width: 100%;
+  width: 90%;
   overflow: auto;
 
   li {
@@ -265,4 +265,43 @@
     padding-left: 80px;
     margin-top: 5px;
   }
+
+  .chan_nav-list li p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .chan_nav-list li .red-line {
+    width: 50px;
+  }
+}
+@media (max-width: 705px) {
+  .chan_blue {
+    width: 500px;
+    height: 210px;
+  }
+  .chan_blue-p {
+    width: 500px;
+  }
+  .chan_blue-header {
+    margin-top: 5px;
+    width: 500px;
+  }
+  .chan_span {
+    right: 20px;
+    top: 177px;
+  }
+  .chan_wadov {
+    right: 10px;
+    top: 175px;
+  }
+}
+@media (max-width: 670px) {
+  .chan_colocol {
+    display: none;
+  }
+  .chan_btn {
+    margin-right: 45px;
+  }
+}
+@media (max-width: 600px) {
 }
