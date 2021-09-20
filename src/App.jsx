@@ -299,7 +299,6 @@ function App() {
           <Route path="/setting" component={Setting} exact />
         </Switch>
       </div>
-      <div className="line"></div>
     </>
   );
 }
