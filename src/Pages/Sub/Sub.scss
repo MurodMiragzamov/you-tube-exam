@@ -1,0 +1,25 @@
+.sub_item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+.sub-list {
+  padding-top: 20px;
+  margin-top: 120px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 900px) {
+  .sub-list {
+    margin-top: 120px;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 80px;
+  }
+  .sub_item {
+    width: 50%;
+  }
+}

@@ -3,7 +3,7 @@ import { Switch, Route, NavLink } from "react-router-dom";
 import "./App.scss";
 import Home from "./Pages/Home/Home";
 import Trending from "./Pages/DeadPages/Trending/Trending";
-import Sub from "./Pages/DeadPages/Sub/Sub";
+import Sub from "./Pages/Sub/Sub";
 import Lib from "./Pages/DeadPages/Lib/Lib";
 import His from "./Pages/DeadPages/His/His";
 import Watch from "./Pages/DeadPages/Watch/Watch";
