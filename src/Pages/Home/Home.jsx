@@ -6,6 +6,7 @@ import user1 from "../../Assets/Images/user11.png";
 import arrowright from "../../Assets/Images/Rightarrow.png";
 import arrowleft from "../../Assets/Images/Leftarrow.png";
 import apelsin from "../../Assets/Images/apelsin.png";
+import wadov from "../../Assets/Images/wadov.png";
 
 function Home() {
   const [data, setData] = React.useState([]);
@@ -65,8 +66,22 @@ function Home() {
               <ul className="home_li_ul">
                 {data &&
                   data.map((row) => (
-                    <li key={row.id}>
-                      <img className="home_img" src={row.url} alt="icon" />
+                    <li className="render-li" key={row.id}>
+                      <img
+                        width={100}
+                        height={100}
+                        className="home_img"
+                        src={row.url}
+                        alt="icon"
+                      />
+                      <img
+                        width={100}
+                        height={100}
+                        src={wadov}
+                        alt="icon"
+                        className="wadov"
+                      />
+                      <span className="render-span">4:15</span>
                       <h4 className="home_li_header">{row.title}</h4>
                       <p className="home_li_p">80k views · 3 days ago</p>
                       <p className="home_li_p">Dollie Blair</p>
@@ -95,11 +110,25 @@ function Home() {
                   className="rarrow"
                 />
               </button>
-              <ul className="home_li_ul">
+              <ul className="home_li_ul ul_li">
                 {datatwo &&
                   datatwo.map((row) => (
-                    <li key={row.id}>
-                      <img className="home_img-two" src={row.url} alt="icon" />
+                    <li className="render-li" key={row.id}>
+                      <img
+                        width={100}
+                        height={100}
+                        className="home_img-two"
+                        src={row.url}
+                        alt="icon"
+                      />
+                      <img
+                        width={100}
+                        height={100}
+                        src={wadov}
+                        alt="icon"
+                        className="wadov-big"
+                      />
+                      <span className="render-span-big">3:40</span>
                       <h4 className="home_li_header">{row.title}</h4>
                       <p className="home_li_p">34k views · 5 months ago</p>
                     </li>
@@ -118,7 +147,7 @@ function Home() {
                   />
                   <h3 className="home_header">Food & Drink</h3>
                 </NavLink>
-                <p className="home_p">Recommended channel for you</p>
+                <p className="home_p rec">Recommended channel for you</p>
                 <button className="btn-l">
                   <img
                     width={100}
@@ -140,14 +169,28 @@ function Home() {
                 </button>
               </div>
 
-              <ul className="home_li_ul">
+              <ul className="home_li_ul pp">
                 {datathree &&
                   datathree.map((row) => (
-                    <li key={row.id}>
-                      <img className="home_img" src={row.url} alt="icon" />
+                    <li className="render-li" key={row.id}>
+                      <img
+                        width={100}
+                        height={100}
+                        className="home_img"
+                        src={row.url}
+                        alt="icon"
+                      />
+                      <img
+                        width={100}
+                        height={100}
+                        src={wadov}
+                        alt="icon"
+                        className="wadov"
+                      />
+                      <span className="render-span">2:19</span>
                       <h4 className="home_li_header">{row.title}</h4>
-                      <p className="home_li_pp">45k views · 2 months ago</p>
-                      <p className="home_li_pp">Food & Drink</p>
+                      <p className="home_li_pp ">45k views · 2 months ago</p>
+                      <p className="home_li_pp ">Food & Drink</p>
                     </li>
                   ))}
               </ul>
