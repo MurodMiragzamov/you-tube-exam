@@ -61,7 +61,7 @@ function Channel() {
                 <ul className="chan_nav-list">
                   <li className="chan_nav-item">
                     <NavLink to="/">
-                      <p className="chan_nav-p">Home</p>
+                      <p className="chan_nav-p red">Home</p>
                       <img
                         src={redline}
                         alt="line"
@@ -98,6 +98,8 @@ function Channel() {
                   </li>
                   <li className="chan_nav-item">
                     <img
+                      width={100}
+                      height={100}
                       src={chansearch}
                       alt="search"
                       className="chan_search"
@@ -110,14 +112,70 @@ function Channel() {
             <li className="chan_item">
               <div className="chan_blue-div">
                 <ul className="blue-list">
-                  <li className="blue-item"></li>
-                  <li className="blue-item"></li>
+                  <li className="blue-item">
+                    <img
+                      width={100}
+                      height={100}
+                      src={blue}
+                      alt="search"
+                      className="chan_blue"
+                    />
+                    <img
+                      width={100}
+                      height={100}
+                      src={wadov}
+                      alt="search"
+                      className="chan_wadov"
+                    />
+                    <span className="chan_span">7:36</span>
+                  </li>
+                  <li className="blue-item">
+                    <h2 className="chan_blue-header">
+                      Choosing The Best Audio Player Software For Your Computer
+                    </h2>
+                    <p className="chan_blue-p">
+                      Your cheap internet-based banner advertising will become
+                      one of the sought for ads there are. Today, the world of
+                      Internet advertising is rapidly evolving beyond banner ads
+                      and intrusive pop-ups. Bayles A common medium for
+                      advertising on the Internet is the use of banner ads.{" "}
+                    </p>
+                    <p className="home_li_pp ">11k views · 6 months ago</p>
+                  </li>
                 </ul>
 
                 <ul className="chan_users-list">
-                  <li className="users-item"></li>
-                  <li className="users-item"></li>
-                  <li className="users-item"></li>
+                  <li className="users-item">
+                    <p className="blue_rec-p">Recommended channel</p>
+                    <img
+                      width={100}
+                      height={100}
+                      src={chan1}
+                      alt="user"
+                      className="chan_users"
+                    />
+                    <h4 className="users_header">Flora Benson</h4>
+                  </li>
+                  <li className="users-item">
+                    <img
+                      width={100}
+                      height={100}
+                      src={chan2}
+                      alt="user"
+                      className="chan_users"
+                    />
+                    <h4 className="users_header">Violet Cobb</h4>
+                  </li>
+                  <li className="users-item">
+                    <img
+                      width={100}
+                      height={100}
+                      src={chan3}
+                      alt="user"
+                      className="chan_users"
+                    />
+                    <h4 className="users_header">Phillip Mullins</h4>
+                  </li>
                 </ul>
               </div>
             </li>

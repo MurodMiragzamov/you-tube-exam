@@ -8,5 +8,97 @@
 }
 
 .chan_big-img {
-  width: 300px;
+  width: 95%;
+  height: 280px;
+  border-radius: 14px;
+  margin-bottom: 40px;
+}
+.chan_user-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+  li {
+    position: relative;
+  }
+}
+.chan_user-img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -14px;
+}
+.chan_user-header {
+  color: #19202c;
+  font-weight: bold;
+  line-height: 33px;
+  font-size: 26px;
+  padding-left: 95px;
+}
+.chan_user-p {
+  color: #c2c2c2;
+  font-size: 13px;
+  line-height: 16px;
+  padding-left: 95px;
+}
+.chan_colocol {
+  width: 22px;
+  height: 26px;
+  position: absolute;
+  top: 8px;
+  left: -40px;
+}
+.chan_btn {
+  border-radius: 20px;
+  background: #ff0000;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border: 1px solid #ff0000;
+  padding: 10px 19px;
+  width: 154px;
+  margin-right: 68px;
+  &:hover {
+    background: #fff;
+    color: #ff0000;
+    transition: 0.5s;
+  }
+}
+.chan_nav-list {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  overflow: auto;
+
+  li {
+    margin-right: 69px;
+    position: relative;
+    p {
+      color: black;
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+  .red {
+    color: #ff0000;
+    font-weight: bold;
+    padding-left: 4px;
+  }
+}
+.chan_nav-list::-webkit-scrollbar {
+  width: 1px;
+}
+.chan_nav-list::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+.red-line {
+  width: 60px;
+  height: 2px;
+  position: absolute;
+}
+.chan_search {
+  width: 18.21px;
+  height: 18.21px;
+  margin-top: 2px;
+  cursor: pointer;
 }
