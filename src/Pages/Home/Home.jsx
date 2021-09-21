@@ -196,8 +196,10 @@ function Home() {
                         <span className="render-span">2:19</span>
                       </NavLink>
                       <h4 className="home_li_header">{row.title}</h4>
-                      <p className="home_li_pp ">45k views · 2 months ago</p>
-                      <p className="home_li_pp ">Food & Drink</p>
+                      <p className="home_li_pp pl pll">
+                        45k views · 2 months ago
+                      </p>
+                      <p className="home_li_pp pl">Food & Drink</p>
                     </li>
                   ))}
               </ul>
