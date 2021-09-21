@@ -508,18 +508,18 @@
   .video_li_ul {
     flex-direction: column;
     width: 250px;
+    height: 66vh;
+    padding-bottom: 0px;
   }
   .video-section {
     height: 70vh;
     padding-bottom: 0px;
   }
-  .video_li_ul {
-    flex-direction: column;
-    height: 66vh;
-    padding-bottom: 0px;
-  }
+
   .video-item {
     height: 66vh;
     padding-bottom: 0px;
   }
+}
+@media (max-width: 780px) {
 }
