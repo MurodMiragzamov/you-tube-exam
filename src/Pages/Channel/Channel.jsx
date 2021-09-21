@@ -28,7 +28,7 @@ function Channel() {
   }, []);
   return (
     <>
-      <section className="home-section chan-section">
+      <section className=" chan-section">
         <img
           width={100}
           height={100}
