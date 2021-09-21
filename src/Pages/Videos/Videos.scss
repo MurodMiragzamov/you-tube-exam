@@ -25,11 +25,17 @@
   display: flex;
   justify-content: space-between;
 }
+.mesto {
+  width: 1000px;
+  height: 700px;
+  padding-top: 700px;
+}
 .video-item {
-  width: 100%;
+  width: 1365px;
   height: 100vh;
   overflow-y: scroll;
   z-index: 20;
+  padding-bottom: 120px;
 }
 .video-item::-webkit-scrollbar {
   width: 1px;
@@ -115,11 +121,371 @@
 }
 
 .video {
-  width: 1363px;
+  width: 1365px;
   height: 700px;
   border-radius: 14px;
+  padding-top: 0.5px;
+  position: fixed;
+  z-index: 70;
+}
+.video-header {
+  color: #192646;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 45px;
+  margin-top: 10px;
+}
+.video_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+  margin-bottom: 60px;
+  position: relative;
+}
+.video-p {
+  color: #c2c2c2;
+  font-size: 20px;
+  line-height: 25px;
 }
 
+.popular-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popular-item {
+  position: relative;
+  margin-left: 10px;
+}
+.popular-like,
+.popular-dislike {
+  width: 14px;
+  height: 13px;
+  position: absolute;
+  top: 14px;
+  left: 20px;
+}
+.popular-share {
+  width: 14px;
+  height: 12px;
+  position: absolute;
+  top: 14px;
+  left: 20px;
+}
+.popular-more {
+  width: 28px;
+  height: 6px;
+  margin-left: 30px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.popular-btn {
+  width: 100px;
+  height: 40px;
+  background: #ebebeb;
+  border-radius: 20px;
+  border: 1px solid #ebebeb;
+  padding-left: 33px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #192646;
+}
+
+.span-line {
+  position: absolute;
+  width: 100%;
+  height: 1.5px;
+  background: rgba(216, 216, 216, 0.5);
+  z-index: 50;
+  bottom: -30px;
+}
+.video_food {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 90px;
+}
+.food-span {
+  position: relative;
+}
+.food-apelsin {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: -90px;
+}
+.food-header {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 33px;
+  color: #19202c;
+}
+.food-p {
+  font-size: 13px;
+  line-height: 16px;
+  color: #c2c2c2;
+  margin-top: 3px;
+}
+.food_btn {
+  border-radius: 20px;
+  background: #ff0000;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border: 1px solid #ff0000;
+  padding: 10px 19px;
+  width: 154px;
+
+  &:hover {
+    background: #fff;
+    color: #ff0000;
+    transition: 0.5s;
+  }
+}
+.video_food_p {
+  padding-left: 90px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  opacity: 0.6;
+  margin-top: 14px;
+  width: 820px;
+}
+.video_show {
+  border: none;
+  background: inherit;
+  color: #c2c2c2;
+  font-size: 20px;
+  line-height: 25px;
+  padding-left: 90px;
+  margin-top: 10px;
+}
+.video-item {
+  margin-right: 30px;
+}
+@media (max-width: 2000px) {
+  .video {
+    width: 1265px;
+    height: 600px;
+  }
+  .span-line {
+    width: 1265px;
+  }
+  .mesto {
+    height: 600px;
+    padding-top: 600px;
+  }
+  .video-item {
+    width: 1265px;
+  }
+  .video_list {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1850px) {
+  .video {
+    width: 1065px;
+    height: 450px;
+  }
+  .span-line {
+    width: 1065px;
+  }
+  .mesto {
+    height: 450px;
+    padding-top: 450px;
+  }
+  .video-item {
+    width: 1065px;
+  }
+}
+@media (max-width: 1670px) {
+  .video_food_p {
+    width: 90%;
+  }
+  .span-line {
+    width: 965px;
+  }
+  .video {
+    width: 965px;
+    height: 450px;
+  }
+  .mesto {
+    height: 450px;
+    padding-top: 450px;
+  }
+  .video-item {
+    width: 965px;
+  }
+  .video-header {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .video-p {
+    font-size: 17px;
+    line-height: 15px;
+  }
+  .video_img {
+    width: 300px;
+    height: 180px;
+  }
+  .video_li_ul {
+    flex-direction: column;
+    width: 300px;
+  }
+  .render-span-video {
+    right: 25px;
+    top: 148px;
+  }
+  .wadov-video {
+    right: 15px;
+    top: 146px;
+  }
+}
+
+@media (max-width: 1670px) {
+  .video {
+    width: 765px;
+    height: 380px;
+  }
+  .span-line {
+    width: 765px;
+  }
+  .mesto {
+    height: 380px;
+    padding-top: 380px;
+  }
+  .video-item {
+    width: 765px;
+    margin-right: 0;
+  }
+  .video-header {
+    font-size: 25px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 1220px) {
+  .video {
+    width: 530px;
+    height: 330px;
+  }
+  .span-line {
+    width: 530px;
+  }
+  .mesto {
+    height: 330px;
+    padding-top: 330px;
+  }
+  .video-item {
+    width: 530px;
+  }
+  .auto-header {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .video {
+    width: 510px;
+    height: 320px;
+  }
+  .span-line {
+    width: 510px;
+  }
+  .mesto {
+    height: 320px;
+    padding-top: 320px;
+  }
+  .video-item {
+    width: 510px;
+  }
+  .video_img {
+    width: 250px;
+    height: 180px;
+  }
+  .video_li_ul {
+    flex-direction: column;
+    width: 250px;
+  }
+}
+@media (max-width: 860px) {
+  .video {
+    width: 480px;
+    height: 310px;
+  }
+  .span-line {
+    width: 480px;
+  }
+  .mesto {
+    height: 310px;
+    padding-top: 310px;
+  }
+  .video-item {
+    width: 480px;
+  }
+  .video_img {
+    width: 250px;
+    height: 180px;
+  }
+  .video_li_ul {
+    flex-direction: column;
+    width: 250px;
+  }
+  .nonee {
+    display: none;
+  }
+  .video_div {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+
+    p {
+      margin-bottom: 20px;
+    }
+  }
+  .popular-item {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .food-apelsin {
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    top: -5px;
+  }
+  .food-header {
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+  }
+  .food-p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .video_food {
+    padding-left: 0px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    button {
+      margin-top: 30px;
+    }
+  }
+  .food-span {
+    padding-left: 60px;
+  }
+  .video_food_p {
+    padding-left: 0;
+    width: 400px;
+  }
+  .video_food {
+    width: 100%;
+  }
+  .video_show {
+    padding-left: 0;
+  }
+}
 @media (max-width: 800px) {
   .video-section {
     height: 76vh;
