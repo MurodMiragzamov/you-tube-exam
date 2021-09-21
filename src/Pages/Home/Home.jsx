@@ -168,7 +168,7 @@ function Home() {
                   />
                 </button>
               </div>
-
+              <button className="home_btn">Subscribe 2.3m</button>
               <ul className="home_li_ul pp">
                 {datathree &&
                   datathree.map((row) => (

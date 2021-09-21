@@ -122,6 +122,27 @@
 .render-li {
   position: relative;
 }
+
+.home_btn {
+  position: absolute;
+  z-index: 20;
+  border-radius: 20px;
+  background: #ff0000;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  border: 1px solid #ff0000;
+  padding: 10px 19px;
+  width: 154px;
+  margin-right: 68px;
+  &:hover {
+    background: #fff;
+    color: #ff0000;
+    transition: 0.5s;
+  }
+  right: 190px;
+  top: -2px;
+}
 .wadov {
   position: absolute;
   width: 47px;
@@ -151,6 +172,11 @@
   height: 24px;
   top: 215px;
   right: 10px;
+}
+@media (max-width: 1210px) {
+  .home_btn {
+    display: none;
+  }
 }
 @media (max-width: 900px) {
   .btn-r {
