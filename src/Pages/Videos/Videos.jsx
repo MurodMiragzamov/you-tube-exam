@@ -23,7 +23,18 @@ function Videos() {
       <section className="video-section">
         <div className="home-div video-div">
           <ul className="home_list video_list">
-            <li className="video-item">dwedwedw</li>
+            <li className="video-item">
+              <iframe
+                className="video"
+                width={100}
+                height={100}
+                src="https://www.youtube.com/embed/Vx7q7ByxQAc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </li>
             <li className="video-item-videos">
               <ul className="video_li_ul">
                 <div className="auto-div">
