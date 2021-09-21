@@ -1,11 +1,9 @@
 import React from "react";
 
-
 function Trending() {
   return (
     <>
-      
-      Trending
+      <h1 className="dead">Trending</h1>
     </>
   );
 }

@@ -1,7 +1,11 @@
 import React from "react";
 
 function Setting() {
-  return <></>;
+  return (
+    <>
+      <h1 className="dead">Settings</h1>
+    </>
+  );
 }
 
 export default Setting;

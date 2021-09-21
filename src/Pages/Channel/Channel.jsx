@@ -142,21 +142,24 @@ function Channel() {
               <div className="chan_blue-div">
                 <ul className="blue-list">
                   <li className="blue-item">
-                    <img
-                      width={100}
-                      height={100}
-                      src={blue}
-                      alt="search"
-                      className="chan_blue"
-                    />
-                    <img
-                      width={100}
-                      height={100}
-                      src={wadov}
-                      alt="search"
-                      className="chan_wadov"
-                    />
-                    <span className="chan_span">7:36</span>
+                    <NavLink to="/videos">
+                      <img
+                        width={100}
+                        height={100}
+                        src={blue}
+                        alt="search"
+                        className="chan_blue"
+                      />
+
+                      <img
+                        width={100}
+                        height={100}
+                        src={wadov}
+                        alt="search"
+                        className="chan_wadov"
+                      />
+                      <span className="chan_span">7:36</span>
+                    </NavLink>
                   </li>
                   <li className="blue-item">
                     <h2 className="chan_blue-header">

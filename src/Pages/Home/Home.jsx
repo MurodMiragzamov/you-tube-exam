@@ -135,6 +135,7 @@ function Home() {
                       </NavLink>
                       <h4 className="home_li_header">{row.title}</h4>
                       <p className="home_li_p">34k views · 5 months ago</p>
+                      <p className="home_li_p home_p_li">Edward Osborne</p>
                     </li>
                   ))}
               </ul>
