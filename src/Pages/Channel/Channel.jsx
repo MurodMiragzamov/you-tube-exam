@@ -94,7 +94,7 @@ function Channel() {
                     </NavLink>
                   </li>
                   <li className="chan_nav-item">
-                    <NavLink to="/likevideos">
+                    <NavLink to="/Videos">
                       <p className="chan_nav-p">Videos</p>
                     </NavLink>
                   </li>
@@ -240,21 +240,23 @@ function Channel() {
                 {datachan &&
                   datachan.map((row) => (
                     <li className="render-li" key={row.id}>
-                      <img
-                        width={100}
-                        height={100}
-                        className="home_img"
-                        src={row.thumbnailUrl}
-                        alt="icon"
-                      />
-                      <img
-                        width={100}
-                        height={100}
-                        src={wadov}
-                        alt="icon"
-                        className="wadov"
-                      />
-                      <span className="render-span">4:28</span>
+                      <NavLink to="/videos">
+                        <img
+                          width={100}
+                          height={100}
+                          className="home_img"
+                          src={row.thumbnailUrl}
+                          alt="icon"
+                        />
+                        <img
+                          width={100}
+                          height={100}
+                          src={wadov}
+                          alt="icon"
+                          className="wadov"
+                        />
+                        <span className="render-span">4:28</span>
+                      </NavLink>
                       <h4 className="home_li_header">{row.title}</h4>
                       <p className="home_li_pp ">13k views · 1 months ago</p>
                       <p className="home_li_pp ">Food & Drink</p>

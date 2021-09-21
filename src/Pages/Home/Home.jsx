@@ -67,21 +67,23 @@ function Home() {
                 {data &&
                   data.map((row) => (
                     <li className="render-li" key={row.id}>
-                      <img
-                        width={100}
-                        height={100}
-                        className="home_img"
-                        src={row.thumbnailUrl}
-                        alt="icon"
-                      />
-                      <img
-                        width={100}
-                        height={100}
-                        src={wadov}
-                        alt="icon"
-                        className="wadov"
-                      />
-                      <span className="render-span">4:15</span>
+                      <NavLink to="/videos">
+                        <img
+                          width={100}
+                          height={100}
+                          className="home_img"
+                          src={row.thumbnailUrl}
+                          alt="icon"
+                        />
+                        <img
+                          width={100}
+                          height={100}
+                          src={wadov}
+                          alt="icon"
+                          className="wadov"
+                        />
+                        <span className="render-span">4:15</span>
+                      </NavLink>
                       <h4 className="home_li_header">{row.title}</h4>
                       <p className="home_li_p">80k views · 3 days ago</p>
                       <p className="home_li_p">Dollie Blair</p>
@@ -114,21 +116,23 @@ function Home() {
                 {datatwo &&
                   datatwo.map((row) => (
                     <li className="render-li" key={row.id}>
-                      <img
-                        width={100}
-                        height={100}
-                        className="home_img-two"
-                        src={row.url}
-                        alt="icon"
-                      />
-                      <img
-                        width={100}
-                        height={100}
-                        src={wadov}
-                        alt="icon"
-                        className="wadov-big"
-                      />
-                      <span className="render-span-big">3:40</span>
+                      <NavLink to="/videos">
+                        <img
+                          width={100}
+                          height={100}
+                          className="home_img-two"
+                          src={row.url}
+                          alt="icon"
+                        />
+                        <img
+                          width={100}
+                          height={100}
+                          src={wadov}
+                          alt="icon"
+                          className="wadov-big"
+                        />
+                        <span className="render-span-big">3:40</span>
+                      </NavLink>
                       <h4 className="home_li_header">{row.title}</h4>
                       <p className="home_li_p">34k views · 5 months ago</p>
                     </li>
@@ -173,21 +177,23 @@ function Home() {
                 {datathree &&
                   datathree.map((row) => (
                     <li className="render-li" key={row.id}>
-                      <img
-                        width={100}
-                        height={100}
-                        className="home_img"
-                        src={row.thumbnailUrl}
-                        alt="icon"
-                      />
-                      <img
-                        width={100}
-                        height={100}
-                        src={wadov}
-                        alt="icon"
-                        className="wadov"
-                      />
-                      <span className="render-span">2:19</span>
+                      <NavLink to="/videos">
+                        <img
+                          width={100}
+                          height={100}
+                          className="home_img"
+                          src={row.thumbnailUrl}
+                          alt="icon"
+                        />
+                        <img
+                          width={100}
+                          height={100}
+                          src={wadov}
+                          alt="icon"
+                          className="wadov"
+                        />
+                        <span className="render-span">2:19</span>
+                      </NavLink>
                       <h4 className="home_li_header">{row.title}</h4>
                       <p className="home_li_pp ">45k views · 2 months ago</p>
                       <p className="home_li_pp ">Food & Drink</p>

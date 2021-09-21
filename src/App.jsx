@@ -13,6 +13,7 @@ import Music from "./Pages/DeadPages/Music/Music";
 import Games from "./Pages/DeadPages/Games/Games";
 import Setting from "./Pages/DeadPages/Setting/Setting";
 import Channel from "./Pages/Channel/Channel";
+import Videos from "./Pages/Videos/Videos";
 //images
 
 import home from "./Assets/Images/redhome.png";
@@ -299,6 +300,7 @@ function App() {
           <Route path="/music" component={Music} exact />
           <Route path="/games" component={Games} exact />
           <Route path="/setting" component={Setting} exact />
+          <Route path="/videos" component={Videos} exact />
         </Switch>
       </div>
     </>

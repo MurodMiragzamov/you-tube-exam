@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Search.scss";
 import search from "../../Assets/Images/search.png";
 import Video from "../../Assets/Images/videoicon.png";
@@ -87,13 +88,15 @@ function Search() {
           </li>
 
           <li className="search-item">
-            <img
-              width={100}
-              height={100}
-              src={Profile}
-              alt="icon"
-              className="profileicon"
-            />
+            <NavLink to="/channel">
+              <img
+                width={100}
+                height={100}
+                src={Profile}
+                alt="icon"
+                className="profileicon"
+              />
+            </NavLink>
           </li>
         </ul>
       </div>
