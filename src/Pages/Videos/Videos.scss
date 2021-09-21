@@ -341,6 +341,7 @@
   .wadov-video {
     right: 15px;
     top: 146px;
+    z-index: 10;
   }
 }
 
@@ -506,7 +507,6 @@
     height: 180px;
   }
   .video_li_ul {
-    flex-direction: column;
     width: 250px;
     height: 66vh;
     padding-bottom: 0px;
@@ -522,4 +522,12 @@
   }
 }
 @media (max-width: 780px) {
+  .video_list {
+    flex-direction: column;
+    overflow: auto;
+    padding-top: 0;
+  }
+  .video-section {
+    overflow: scroll;
+  }
 }
