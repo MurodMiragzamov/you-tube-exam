@@ -179,34 +179,40 @@ function Channel() {
                 <ul className="chan_users-list">
                   <li className="users-item">
                     <p className="blue_rec-p">Recommended channel</p>
-                    <img
-                      width={100}
-                      height={100}
-                      src={chan1}
-                      alt="user"
-                      className="chan_users"
-                    />
-                    <h4 className="users_header">Flora Benson</h4>
+                    <NavLink to="/subscriptions">
+                      <img
+                        width={100}
+                        height={100}
+                        src={chan1}
+                        alt="user"
+                        className="chan_users"
+                      />
+                      <h4 className="users_header">Flora Benson</h4>
+                    </NavLink>
                   </li>
                   <li className="users-item">
-                    <img
-                      width={100}
-                      height={100}
-                      src={chan2}
-                      alt="user"
-                      className="chan_users"
-                    />
-                    <h4 className="users_header">Violet Cobb</h4>
+                    <NavLink to="/subscriptions">
+                      <img
+                        width={100}
+                        height={100}
+                        src={chan2}
+                        alt="user"
+                        className="chan_users"
+                      />
+                      <h4 className="users_header">Violet Cobb</h4>
+                    </NavLink>
                   </li>
                   <li className="users-item">
-                    <img
-                      width={100}
-                      height={100}
-                      src={chan3}
-                      alt="user"
-                      className="chan_users"
-                    />
-                    <h4 className="users_header">Phillip Mullins</h4>
+                    <NavLink to="/subscriptions">
+                      <img
+                        width={100}
+                        height={100}
+                        src={chan3}
+                        alt="user"
+                        className="chan_users"
+                      />
+                      <h4 className="users_header">Phillip Mullins</h4>
+                    </NavLink>
                   </li>
                 </ul>
               </div>
