@@ -34,7 +34,7 @@ function Videos() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-              <h2 className="mesto"></h2>
+              <h2 className="mesto">.</h2>
               <h2 className="video-header">Dude You Re Getting A Telescope</h2>
 
               <div className="video_div">
